@@ -27,10 +27,17 @@
     background-color: var(--color-grey-dark-1);
 
     flex: 0 0 18%; //grow, shrink , width
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view{
     background-color:orangered;
+
+    //Teste
+    height: 80rem;
 
     flex: 1;
 }
